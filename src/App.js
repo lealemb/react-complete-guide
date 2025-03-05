@@ -18,7 +18,6 @@ function App() {
         >
           Learn React
         </a>
-        <p> {"Dave"}</p>
       </header>
     </div>
   );
