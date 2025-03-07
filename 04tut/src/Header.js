@@ -1,9 +1,13 @@
 const Header = () => {
-  return (
-    <header style={{
+    const headerStyle = {
       backgroundColor: 'mediumseagreen',
-      color: 'white',
-    }}>
+      color: 'white'
+    }
+
+
+
+  return (
+    <header style={headerStyle}>
       <h1>Groceries List</h1>
     </header>
   )
