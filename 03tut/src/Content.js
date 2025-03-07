@@ -1,9 +1,9 @@
 
 const Content = () => {
   return (
-    <div>
+    <main>
       
-    </div>
+    </main>
   )
 }
 
