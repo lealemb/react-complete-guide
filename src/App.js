@@ -4,7 +4,7 @@ import './App.css';
 function App() {
 
   const handleNameChange = () => {
-      const names = ['John', 'Doe', 'Jane', 'Doe'];
+      const names = ['Lealem', 'Birhanu', 'Tsehay'];
       const int = Math.floor(Math.random() * 3);
       return names[int];
   }
