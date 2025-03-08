@@ -18,11 +18,10 @@ const Content = () => {
     const handleClick3 = (e) => {
       console.log(e.target);
     }
-
     
   return (
     <main>
-        <p>
+        <p onDoubleClick={handleClick}>
             Hello {handleNameChange()}!
         </p>
         <button onClick={handleClick}> Click It</button>
