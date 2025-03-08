@@ -18,8 +18,6 @@ const Content = () => {
     const handleClick2 = (name) => {
       console.log(count);
     }
-
-   
     
   return (
     <main>
