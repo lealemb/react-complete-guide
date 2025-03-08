@@ -19,9 +19,7 @@ const Content = () => {
       console.log(count);
     }
 
-    const handleClick3 = (e) => {
-      console.log(e.target);
-    }
+   
     
   return (
     <main>
