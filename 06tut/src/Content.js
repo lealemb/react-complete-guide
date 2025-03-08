@@ -24,7 +24,6 @@ const Content = () => {
     <main>
         <p onDoubleClick={handleClick}>
             Hello {name} <br/>
-            Hello {age}
         </p>
         <button onClick={handleClick}> Click It</button>
         <button onClick={()=> handleClick2('Lealem')}> Click It</button>
