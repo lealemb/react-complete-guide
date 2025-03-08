@@ -50,7 +50,8 @@ header {
 } */
 
 main {
-  width: 100%;;
+  width: 100%;
+  display: flex;
 }
 footer {
   width: 100%;
