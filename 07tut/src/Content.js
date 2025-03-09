@@ -22,7 +22,9 @@ const Content = () => {
         ]);
   return (
     <main>
-       
+        <ul>
+          
+        </ul>
     </main>
   )
 }
