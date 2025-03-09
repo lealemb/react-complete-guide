@@ -5,7 +5,7 @@ const Content = () => {
 
           {
             id: 1,
-            checked: false,
+            checked: true,
             item: "one half pound of Coca Coverd Almonds Unsalted"
           },
 
