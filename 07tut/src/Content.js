@@ -1,6 +1,6 @@
 import {useState} from 'react';
 const Content = () => {
-      const [items, setItems] = useState ();
+      const [items, setItems] = useState ([
 
       {
         id: 1,
@@ -31,6 +31,7 @@ const Content = () => {
         checked: false,
         item: "item 5"
       }
+    ]);
   return (
     <main>
        
