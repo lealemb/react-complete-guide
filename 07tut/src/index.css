@@ -66,3 +66,7 @@ ul {
 ul li::before {
   content: "\200B";
 }
+
+.item {
+  display: flex;
+}
