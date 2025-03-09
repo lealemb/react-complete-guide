@@ -28,6 +28,7 @@ const Content = () => {
                 <input type="checkbox"
                 checked={item.checked} />
                 <label> {item.item}</label>
+                <button>Delete</button>
 
               </li>
             ))}
