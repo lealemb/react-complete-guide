@@ -23,7 +23,13 @@ const Content = () => {
   return (
     <main>
         <ul>
-          
+            {items.map((item) => (
+              <li className='item'>
+                <input type="checkbox"
+                checked={item.checked} />
+
+              </li>
+            ))}
         </ul>
     </main>
   )
