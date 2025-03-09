@@ -21,12 +21,17 @@ const Content = () => {
             item: "item 3"
           }
         ]);
+
+    const handleCheck = (id) => {
+          console.log( `key: ${id}`);
+        }
   return (
     <main>
         <ul>
             {items.map((item) => (
               <li className='item' key ={item.id}>
                 <input type="checkbox"
+                onChange={() => handleCheck(item.id)}
                 checked={item.checked} />
                 <label> {item.item}</label>
                 
