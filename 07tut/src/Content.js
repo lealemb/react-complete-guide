@@ -25,11 +25,13 @@ const Content = () => {
     const handleCheck = (id) => {
           const listItems = items.map((item)=> item.id ===id? { ...item, checked: !item.checked} : item);
           setItems(listItems);
-          localStorage.setItem('items', JSON.stringify(listItems));
+          localStorage.setItem('Shopinglist', JSON.stringify(listItems));
         }
 
         const handleDelete = (id) => {
-          console.log(id)
+          const listItems = items.filter((item) => item.id !== id);
+          setItems(listItems);
+          localStorage.setItem('Shopinglist', JSON.stringify(listItems));
         }
 
   return (
