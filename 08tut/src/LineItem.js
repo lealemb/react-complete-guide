@@ -1,5 +1,4 @@
 import { FaTrashAlt } from 'react-icons/fa';
-
 const LineItem = ({item, handleCheck, handleDelete}) => {
         return (
             <li className="item" key={item.id}>
@@ -16,6 +15,7 @@ const LineItem = ({item, handleCheck, handleDelete}) => {
                 onClick={() => handleDelete(item.id)}
                 role="button"
                 tabIndex="0"
+                arial-label ={`Delete ${item.item}`} 
             />
         </li>
   )
