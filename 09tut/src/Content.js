@@ -1,6 +1,6 @@
 import ItemList from './ItemList';
 const Content = ({items, handleCheck, handleDelete}) => {
-    return (
+    return ( 
         <main>
             {items.length ? (
                 <ItemList
