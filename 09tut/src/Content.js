@@ -4,7 +4,7 @@ const Content = ({items, handleCheck, handleDelete}) => {
         <main>
             {items.length ? ( 
                 <ItemList
-                    items={items}
+                    items={items} 
                     handleCheck={handleCheck} 
                     handleDelete={handleDelete}
                 /> 
