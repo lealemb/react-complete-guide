@@ -10,7 +10,7 @@ const ItemList = ({items, handleCheck, handleDelete}) => {
             handleCheck={handleCheck}
             handleDelete={handleDelete}
         />
-    ))}
+    ))} 
 </ul>
     
   )
