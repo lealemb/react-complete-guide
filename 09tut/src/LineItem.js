@@ -16,7 +16,7 @@ const LineItem = ({ item, handleCheck, handleDelete }) => {
                 role="button"
                 tabIndex="0"
                 arial-label={`Delete ${item.item}`}
-            />
+            /> 
         </li>
     )
 }
