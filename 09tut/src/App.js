@@ -46,5 +46,4 @@ const handleDelete = (id) => {
     </div>
   );
 }
-
 export default App;
