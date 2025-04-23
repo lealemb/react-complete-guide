@@ -37,7 +37,7 @@ const handleDelete = (id) => {
   return (
     <div className="App">
      <Header title ="Groceris List" />
-      <Content   
+      <Content go
       items={items}
       handleCheck={handleCheck}
       handleDelete={handleDelete}
